@@ -14,6 +14,21 @@ ul {
   list-style-type: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+article,
+hr {
+  margin: 0 !important;
+}
+
 a {
   text-decoration: none;
 }
@@ -28,15 +43,38 @@ img {
 }
 
 h1 {
-  font-size: 50px;
-}
-h1 a {
-  color: red;
+  color: #326dee;
+  margin-bottom: 0.75rem;
 }
 
-ul {
-  font-size: 10px;
+a {
+  color: #1ac886;
 }
-ul li {
-  list-style: none;
+
+button {
+  color: white;
+  border: 0;
+  background: #326dee;
+  border-radius: 20px;
+  padding: 0.75rem;
+}
+
+.error {
+  color: #d32752;
+  border-color: #d32752;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+  border-width: 1px;
+}
+
+.notification {
+  color: #1ac886;
+  border-color: #1ac886;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+  border-width: 1px;
 }
